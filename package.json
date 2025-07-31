@@ -1,0 +1,37 @@
+{
+    "name": "github-mermaid-mcp-server",
+    "version": "1.0.0",
+    "description": "MCP server that analyzes GitHub repositories and generates Mermaid diagrams",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "node --inspect index.js",
+        "test": "node --test"
+    },
+    "keywords": [
+        "mcp",
+        "server",
+        "github",
+        "mermaid",
+        "diagrams",
+        "architecture",
+        "visualization"
+    ],
+    "author": "Your Name",
+    "license": "MIT",
+    "dependencies": {
+        "@modelcontextprotocol/sdk": "^1.17.1",
+        "axios": "^1.11.0",
+        "node-html-parser": "^6.1.13"
+    },
+    "devDependencies": {
+        "@types/node": "^20.0.0"
+    },
+    "engines": {
+        "node": ">=18.0.0"
+    },
+    "bin": {
+        "github-mermaid-mcp": "./index.js"
+    }
+}
