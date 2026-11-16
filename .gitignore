@@ -1,0 +1,3 @@
+
+# Claude Code local settings (per-machine permissions; may capture full commands incl. secrets)
+.claude/settings.local.json
